@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_corr_variables",
+  "source_file": "Projet_Victoire_DANSOU.sas",
+  "source_blob_sha": "de7f004e0981d744156cf5ce05e47649de00367c",
+  "source_commit": "31cd94fb1425f908b8ff2422b459ab28eb211207",
+  "notes": "PROC CORR (matrice de correlation de Pearson, 7 variables) (script L208-211). Les 3 fichiers .xlsx importes depuis un chemin Windows local sont remplaces par un echantillon auto-mpg inline (memes noms de colonnes, memes origines USA/Europe/Asie); la logique d'analyse est inchangee."
+}

@@ -1,0 +1,24 @@
+{
+  "_captured_at": "2026-07-23T15:23:32.853235+00:00",
+  "_captured_run_id": "r_29309525ce494455961a5fcef74c4d71",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote projet_mpg_final (24 rows, 11 columns).",
+    "NOTE: PROC REG data=projet_mpg_final",
+    "NOTE: PROC REG: processed 1 job(s) in batch"
+  ],
+  "output_contains": [
+    "The REG Procedure",
+    "Correlation Matrix",
+    "Output Statistics"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_captured_at": "2026-07-23T15:23:32.853701+00:00",
+  "_captured_run_id": "r_e013c6eab5a44588b85e086a9682e17d",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote autompg12 (24 rows, 9 columns).",
+    "NOTE: PROC SORT statement used.",
+    "NOTE: PROC CONTENTS completed: 24 observations, 9 variables"
+  ],
+  "output_contains": [
+    "PROC CONTENTS",
+    "Observations:  24",
+    "Variables:     9"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

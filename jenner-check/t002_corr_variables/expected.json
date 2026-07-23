@@ -1,0 +1,24 @@
+{
+  "_captured_at": "2026-07-23T15:23:32.852753+00:00",
+  "_captured_run_id": "r_e2ca096488b6402099b9dd25b3da3092",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 24 rows from DATALINES.",
+    "NOTE: Wrote projet_mpg (24 rows, 10 columns).",
+    "NOTE: PROC CORR data=projet_mpg"
+  ],
+  "output_contains": [
+    "The CORR Procedure",
+    "Pearson Correlation Coefficients, N = 24",
+    "Simple Statistics"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

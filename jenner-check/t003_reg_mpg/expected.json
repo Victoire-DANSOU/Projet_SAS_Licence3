@@ -1,0 +1,24 @@
+{
+  "_captured_at": "2026-07-23T15:23:32.852984+00:00",
+  "_captured_run_id": "r_2d40644fa9ff4e82be706a9f76a47638",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 24 rows from DATALINES.",
+    "NOTE: PROC REG data=projet_mpg",
+    "NOTE: PROC REG: processed 1 job(s) in batch"
+  ],
+  "output_contains": [
+    "The REG Procedure",
+    "Dependent Variable: mpg",
+    "Parameter Estimates"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

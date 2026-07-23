@@ -1,0 +1,24 @@
+{
+  "_captured_at": "2026-07-23T15:23:32.853461+00:00",
+  "_captured_run_id": "r_a5cf6cd3293e47ac865feddb90fd0111",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote mpg_clean (24 rows, 10 columns).",
+    "NOTE: PROC MEANS statement used.",
+    "NOTE: PROC PRINT completed: 24 observations printed, 10 variables"
+  ],
+  "output_contains": [
+    "The MEANS Procedure",
+    "Lower Quartile",
+    "Upper Quartile"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
