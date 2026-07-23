@@ -1,0 +1,25 @@
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                Dependent Variable: mpg                                                 
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   6       726.13880    121.02313     45.02    <.0001
+Error                  17        45.69453      2.68791                    
+Corrected Total        23       771.83333                                 
+
+Root MSE           1.63949    R-Square            0.9408
+Dependent Mean      24.08333    Adj R-Sq            0.9199
+Coeff Var          6.80755
+
+                         Parameter Estimates                          
+
+Variable            DF    Estimate  Standard Error   t Value  Pr > |t|
+------------  --------  ----------  --------------  --------  --------
+Intercept            1  1684.20402       386.64981      4.36    0.0004
+cylindres            1     3.28110         1.36681      2.40    0.0281
+deplacement          1    -0.08381         0.03058     -2.74    0.0139
+puissance            1     0.12139         0.04495      2.70    0.0152
+poids                1    -0.00767         0.00174     -4.40    0.0004
+acceleration         1     0.53750         0.30631      1.75    0.0973
+age                  1    -0.87012         0.20226     -4.30    0.0005
